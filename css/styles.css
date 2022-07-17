@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+#navbar {
+    background-color: #3f8c84;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#jumboH1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3f8c84;
+}
+#jumbo {
+    background: url("/images/Willemtstad.jpg");
+    background-size: cover;
+    height: 70vh;
+}
+#ourServicesBtn{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#mask {
+    background-color: rgba(0,0,0,0.1);
+}
+
+#footer {
+    background-color: #3f8c84;
+}
+
+#logo {
+    font-size: small;
+}
+
+.addressList {
+    font-size: small;
+}
+
+.navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+    padding: 10px;
+
+}
+.navList li {
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+#familyMessage{
+    font-size: 16px;
+}
+.copyrights {
+    font-size: small;
+}
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
