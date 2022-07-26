@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,36 +11,101 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <title>Ng Cry Cleaners</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-md navbar-dark sticky-top" id="navbar">
         <a class="navbar-brand" href="index.html">
             <img src="images/NG Dry Cleaners Logo.png" alt="Navbar Logo" height="45">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-        
-       
 
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item text-center"><a class="nav-link active" href="index.html">Home</a></li>
-                <li class="nav-item text-center"><a class="nav-link" href="aboutus.html">About</a></li>
+                <li class="nav-item text-center"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item text-center"><a class="nav-link active" href="aboutus.html">About</a></li>
                 <li class="nav-item text-center"><a class="nav-link" href="services.html">Services</a></li>
-                <li class="nav-item text-center"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                <li class="nav-item text-center"><a class="nav-link" href="locations.html">Our Locations</a></li>
             </ul>
-
         </div>
     </nav>
 
+    <div class="container">
+        <!-- breadcrumb row -->
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">About</li>
+                </ol>
+            </div>
+        </div>
+        <!-- ng family row -->
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center my-5">We are Ng Dry Cleaners</h2>
+                <figure>
+                    <img class="img-fluid rounded mx-auto d-block" src="images/the-ng-family.jpeg" alt="">
+                    <figcaption class="figure-caption text-center">The Ng Family</figcaption>
+                </figure>
+                <p class="my-5">
+                    1962 marked more than the release of songs from Ray Charles and Elvis Presley, it was the year <span id="important">Ng Dry Cleaners</span> opened for business. Through hardships and distances, each member of the family proved time and time again that love - and a good steam press - is worth more than money. Each and every person who walks into <span id="important">Ng Dry Cleaners</span> gets the same welcoming and familiar smile shared by everyone in the <span id="important">Ng Family</span>.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+            <div class="col-md-5">
+                <figure>
+                    <img class="mr-auto rounded" id="sauKimImage"src="images/sau_kim.jpg" alt="" height="450px">
+                    <figcaption class="figure-caption text-sm-center text-md-center text-lg-left" id="sauKimCaption">Sau Kim Ng</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-7">
+                <p id="sauKim"><span id="important">Sau Kim</span>, the natural matriarch of her family, didn't actually speak much Papiamentu. But this language barrier wasn't enough to stop her from providing the best service possible to each and every person who walked through the door. This staple continued on with her children as they grew older and contineud to work at <span id="important">Ng Dry Cleaners</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row my-5" id="laiYenRow">
+            <div class="col-md-7 my-5">
+                <p id="laiYen">
+                    As the eldest daugther of five children, it seemed only natural for <span id="important">Lai Yen Ng</span>  to take over her mothers laundry as <span id="important"> Sau Kim</span> got older. Kindhearted and warm, her ability to make customers comfortable adds to the quality care given at <span id="important"> Ng Dry Cleaners</span>.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <figure>
+                    <img class="rounded p-sm-0" id="laiYenImage" src="images/laiyen.jpeg" alt="Lai Yen Ng" height="500px">
+                    <figcaption class="figure-caption ml-sm-0" id="laiYenCaption">Lai Yen Ng</figcaption>
+                </figure>
+                
+            </div>
+        </div>
+        <hr>
+        <div class="row mb-5">
+            <div class="col-md-5 mt-5">
+                <figure>
+                    <img class="rounded" id="laifonImage"src="images/laifon.jpeg" alt="Lai Fon Ng image" height="500px">
+                    <figcaption class="figure-caption text-sm-left text-md-left text-lg-left" id="laifonCaption">Lai Fon Ng</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-7" id="laifonRow">
+                <p id="laiFonMessage">
+                    The youngest of the Ng children, <span id="important">Lai Fon Ng</span> is more than family oriented. Her ability to lead and communicate made her a natural at the storefront. Always welcoming and funny, <span id="important">Lai Fon</span> plays more than an ownership role at <span id="important">Ng Dry Cleaners</span>.
+                </p>
+            </div>
+        </div>
+
+    </div>
     <footer class="text-center text-lg-start text-light" id=footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-xl-5">
                     <div class="mt-4 pr-xl-4" id="logo"><a class="brand" href="#"><img src="images/NG Dry Cleaners Logo.png" height="45" alt=""></a>
-                        <p class="mt-3">A family business running on hard work and loyalty, Ng Dry Cleaners uses more than steam to keep your garments clean- we use love. </p>
+                        <p class="mt-3" id="familyMessage">A family business running on hard work and loyalty, Ng Dry Cleaners uses more than steam to keep your garments clean- we use love. </p>
                     </div>
                 </div>
                 <div class="col-md-4 mt-4">
@@ -50,9 +116,13 @@
                         <dd><i class="fa fa-address-card"></i> Winston Churchillweg 163, Willemstad, Curaçao</dd>
                         <dt>Hong Kong Dry Cleaners: </dt>
                         <dd><i class="fa fa-address-card"></i> Roodeweg 230, Willemstad, Curaçao</dd>
+                    
+                </div>
+                <div class="col-md-4 col-xl-3 mt-5">
                     <dl class="addressList">
                         <dt>Email: </dt>
                         <dd><i class="fa fa-google"></i> ngdrycleanerscw@gmail.com</dd>
+                    </dl>
                     <dl class="addressList">
                         <dt>Phone:</dt>
                         <dt> Antilles Dry Cleaners: </dt>
@@ -61,39 +131,31 @@
                         <dd><i class="fa fa-phone"></i> +599 9 4626299</dd>
                     </dl>
                 </div>
-                <div class="col-md-4 col-xl-3 mt-4">
-                    <h5>Links</h5>
-                    <ul class="navList">
-                        <li>
-                            <a href="aboutus.html">About</a>
-                        </li>
-                        <li>
-                            <a href="services.html">Services</a>
-                        </li>
-                        <li>
-                            <a href="contactus.html">Contact Us</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-facebook fa-lg">
-                                <a href="#">Facebook</a>
-                            </i>
-                            <i class="fa fa-instagram fa-lg">
-                                <a href="#">Instagram</a>
-                            </i>
-                        </li>
-                    </ul>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-6">
+                    <i class="fa fa-facebook fa-lg">
+                        <a href="#">Facebook</a>
+                    </i>
+                </div>
+                <div class="col-md-6">
+                    <i class="fa fa-instagram fa-lg">
+                        <a href="#">Instagram</a>
+                    </i>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <p class="copyrights"><span>©</span><span class="copyrightYear">2022</span><span> </span><span>Ng Dry Cleaners</span><span>. </span><span>All Rights Reserved.</span></p>
+                    <p class="copyrights"><span>©</span><span class="copyrightYear">2022</span><span> </span><span>Ng Dry Cleaners</span><span>. </span><span>All Rights Reserved.</span></p>
+
                 </div>
             </div>
         </div>
     </footer>
-    
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

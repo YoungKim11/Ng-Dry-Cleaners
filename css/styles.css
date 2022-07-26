@@ -5,17 +5,81 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: 'Source Sans Pro', sans-serif;
+    color: #3f8c84;
+    font-weight: bold;
 }
+.carousel-caption {
+    background: rgba(0,0,0,0.2);
+}
+#sauKim {
+    margin: 70px 0 0 0;
+}
+
+#laiYen {
+    margin: 20px;
+    padding-right: 20px;
+}
+#laiYenImage {
+    margin: 0 10px 0 20px;
+    padding-left: 75px;
+}
+#laiYenCaption {
+    margin-left: 261px;
+}
+#sauKimCaption {
+    margin-left: 50px;
+}
+#laiFonMessage {
+    margin: 95px 20px;
+}
+
+#laifonImage {
+    margin: 0 20px 0 40px;
+}
+
+#laifonCaption {
+    margin-left: 90px;
+}
+
+#btnSuccess {
+    border-color: #3f8c84;
+    color: #3f8c84;
+}
+#important {
+    font-weight: bolder;
+    color: #3f8c84;
+}
+#btnSuccess:hover {
+    background-color: #3f8c84;
+    color: white;
+}
+
+hr {
+    border: 1px solid #3f8c84;
+}
+
+#jumboMessage {
+    margin-top: 120px;
+}
+
+#jumboH4 {
+    margin: 20px;
+    color: white;
+}
+
+
 #jumboH1 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #3f8c84;
+    font-weight: bolder;
+    font-size: 100px;
 }
 #jumbo {
     background: url("/images/Willemtstad.jpg");
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
 }
 #ourServicesBtn{
     font-family: 'Source Sans Pro', sans-serif;
@@ -61,3 +125,29 @@ a {
     color: inherit;
 }
 
+#dryCleaningDress{
+    padding-left: 120px;
+}
+
+#dryCleaningTuxedo{
+    padding-left: 120px;
+}
+#dryCleaningWash{
+    padding-left: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* #dryCleaningDress{
+        padding-left: 200px;
+    }
+    #dryCleaningTuxedo{
+        padding-left: 200px;
+    }
+    #dryCleaningWash{
+        padding-left: 200px;
+    } */
+}
+
+#contactInfoColor {
+    color: white;
+}
